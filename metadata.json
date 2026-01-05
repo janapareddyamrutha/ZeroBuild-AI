@@ -1,0 +1,9 @@
+{
+  "name": "ZeroBuild AI",
+  "description": "A cutting-edge architectural planning and visualization platform that leverages Gemini AI to transform building concepts into photorealistic 3D designs with integrated budget and furniture sourcing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

@@ -1,0 +1,105 @@
+
+import { Language } from './types';
+
+export const CLIENT_CREDENTIALS = {
+  email: 'client@architect.ai',
+  password: 'client123'
+};
+
+export const ADMIN_CREDENTIALS = {
+  email: 'admin@zerobuild.ai',
+  password: 'Admin@123'
+};
+
+export const TRANSLATIONS: Record<Language, any> = {
+  en: {
+    welcome: "Welcome to ZeroBuild AI",
+    clientPortal: "Client Portal",
+    devPortal: "Developer Portal",
+    login: "Login",
+    signup: "Sign Up",
+    logout: "Logout",
+    dashboard: "Dashboard",
+    history: "Project History",
+    newProject: "New Project",
+    totalBudget: "Total Budget",
+    delete: "Delete",
+    deleteAll: "Delete All",
+    roomPlanning: "Room Planning",
+    visualize: "AI Visualization",
+    chatbot: "AI Assistant",
+    outOfScope: "This request is out of scope for ZeroBuild.AI.",
+    profile: "Profile",
+    buildingType: "Building Type",
+    location: "Location",
+    rooms: "Rooms",
+    floors: "Floors",
+    generate: "Generate Design",
+    budgetView: "Budget Overview",
+    satisfaction: "Satisfaction Feedback",
+    rateExperience: "How was your experience?",
+    beforeDesign: "Before Design",
+    afterDesign: "After Design",
+    addRoom: "Add Room"
+  },
+  hi: {
+    welcome: "ZeroBuild AI में आपका स्वागत है",
+    clientPortal: "क्लाइंट पोर्टल",
+    devPortal: "डेवलपर पोर्टल",
+    login: "लॉगिन",
+    signup: "साइन अप करें",
+    logout: "लॉगआउट",
+    dashboard: "डैशबोर्ड",
+    history: "परियोजना इतिहास",
+    newProject: "नई परियोजना",
+    totalBudget: "कुल बजट",
+    delete: "हटाएं",
+    deleteAll: "सभी हटाएं",
+    roomPlanning: "कमरा योजना",
+    visualize: "AI दृश्य",
+    chatbot: "AI सहायक",
+    outOfScope: "यह अनुरोध ZeroBuild.AI के दायरे से बाहर है।",
+    profile: "प्रोफ़ाइल",
+    buildingType: "इमारत का प्रकार",
+    location: "स्थान",
+    rooms: "कमरे",
+    floors: "मंज़िल",
+    generate: "डिज़ाइन बनाएं",
+    budgetView: "बजट अवलोकन",
+    satisfaction: "संतुष्टि प्रतिक्रिया",
+    rateExperience: "आपका अनुभव कैसा रहा?",
+    beforeDesign: "डिजाइन से पहले",
+    afterDesign: "डिजाइन के बाद",
+    addRoom: "कमरा जोड़ें"
+  },
+  te: {
+    welcome: "ZeroBuild AI కి స్వాగతం",
+    clientPortal: "క్లయింట్ పోర్టల్",
+    devPortal: "డెవలపర్ పోర్టల్",
+    login: "లాగిన్",
+    signup: "సైన్ అప్",
+    logout: "లాగ్ అవుట్",
+    dashboard: "డాష్‌బోర్డ్",
+    history: "ప్రాజెక్ట్ చరిత్ర",
+    newProject: "కొత్త ప్రాజెక్ట్",
+    totalBudget: "మొత్తం బడ్జెట్",
+    delete: "తొలగించు",
+    deleteAll: "అన్నీ తొలగించు",
+    roomPlanning: "రూమ్ ప్లానింగ్",
+    visualize: "AI విజువలైజేషన్",
+    chatbot: "AI అసిస్టెంట్",
+    outOfScope: "ఈ అభ్యర్థన ZeroBuild.AI పరిధిలో లేదు.",
+    profile: "ప్రొఫైల్",
+    buildingType: "భవనం రకం",
+    location: "స్థానం",
+    rooms: "గదులు",
+    floors: "అంతస్తులు",
+    generate: "డిజైన్ రూపొందించు",
+    budgetView: "బడ్జెట్ వివరణ",
+    satisfaction: "సంతృప్తి ఫీడ్‌బ్యాక్",
+    rateExperience: "మీ అనుభవం ఎలా ఉంది?",
+    beforeDesign: "డిజైన్ ముందు",
+    afterDesign: "డిజైన్ తర్వాత",
+    addRoom: "గదిని జోడించు"
+  }
+};
